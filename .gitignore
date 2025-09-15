@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+
+# IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# JAR / WAR / EAR
+*.jar
+*.war
+*.ear
+
+# Backup / temp
+*~
+*.swp
+
+# Spring Boot specific
+!gradle/wrapper/gradle-wrapper.jar
+
+.env
