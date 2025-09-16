@@ -18,3 +18,10 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+
+openai:
+  apiKey: ${OPENAI_API_KEY}
+  model: gpt-4o-mini
+
+file:
+  upload-dir: uploads
